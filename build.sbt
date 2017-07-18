@@ -69,7 +69,7 @@ lazy val signonActor = (project in file("signon-actor"))
 
 lazy val questionActor = (project in file("question-actor"))
   .dependsOn(triviaEntities).settings(
-  name := "operation-trivia-scorekeeper-actor",
+  name := "operation-trivia-question-actor",
   version := "0.1-SNAPSHOT",
   scalaVersion := "2.11.7",
   scalacOptions ++= Seq("-feature", "-deprecation"),
